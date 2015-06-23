@@ -20,7 +20,7 @@
   opacity: .5;
 }
 
-.field:read-only:not(select),
+.field:read-only:not(select):not(div),
 .field.is-read-only {
   background-color: var(--darken-2);
 }
